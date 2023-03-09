@@ -30,7 +30,7 @@ I will be primarily using this api (https://dash.valorant-api.com/endpoints/agen
 
 ## Implementation Timeline
 
-Friday Afternoon & Weekend : hoping to finish writing my scripts, getting my fetched data to show up on my html and my buttons and search to work as intended.
+- Friday Afternoon & Weekend : hoping to finish writing my scripts, getting my fetched data to show up on my html and my buttons and search to work as intended.
 
 - Monday : hoping if the functionalities are working and data is being fetched properly start working on css
 
