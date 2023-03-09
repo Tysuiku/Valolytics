@@ -1,7 +1,5 @@
-import Example from "./scripts/example";
+import { getAgent } from "./scripts/display_agent";
 
 document.addEventListener("DOMContentLoaded", () => {
-  //   console.log("Hello World");
-  const main = document.getElementById("main");
-  new Example(main);
+  document.querySelector("#search").addEventListener("click", getAgent);
 });
