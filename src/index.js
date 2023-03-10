@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const agentInput = document.querySelector("#agentSearch");
   const agentPortrait = document.querySelector("#agentBox");
   const agentRole = document.querySelector("#agentRoleBox");
+  const agentAbility = document.querySelector("#agentAbilityBox");
 
   search.addEventListener("click", function (e) {
     const agentName = agentInput.value;

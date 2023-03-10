@@ -17,7 +17,7 @@
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     font-size: 35px;
     position: relative;
-    left: 975px;
+    left: 960px;
     bottom: 523px;
 }
 
@@ -42,8 +42,11 @@
 }
 
 #agentDescription{
+    
+    max-width: 20%;
+    position: relative;
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     font-size: 20px;
-    position: relative;
-    bottom: 150px;
+    bottom: 500px;
+    left: 950px;
 }
