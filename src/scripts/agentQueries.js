@@ -1,9 +1,16 @@
 export function allAgentQueries(agentData, agentName) {
-  const agent = agentData.data.find(
-    (agent) => agent.displayName.toLowerCase() === agentName.toLowerCase()
-  );
-
+  let agent = null;
+  for (let i = 0; i < agentData.data.length; i++) {
+    if (
+      agentData.data[i].displayName.toLowerCase() === agentName.toLowerCase() &&
+      agentData.data[i]["isPlayableCharacter"]
+    ) {
+      agent = agentData.data[i];
+      break;
+    }
+  }
   if (agent) {
+    console.log(agent);
     document.querySelector("#agentTitle").innerText = agent.displayName;
     document.querySelector("#agentDescription").innerText = agent.description;
     document.querySelector("#valoFullPortrait").src = agent.fullPortraitV2;
