@@ -1,5 +1,49 @@
 #valoFullPortrait{
     
-    width: 700px;
+    width: 500px;
     height: auto;
+}
+
+#valoRoleIcon{
+    background-color: black;
+    width: 30px;
+    height: auto;
+    position: relative;
+    left: 1100px;
+    bottom: 450px;
+}
+
+#agentRole{
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    font-size: 35px;
+    position: relative;
+    left: 975px;
+    bottom: 523px;
+}
+
+#valoFullPortrait{
+    position: relative;
+    left: 475px;
+    bottom: 75px;
+}
+
+#agentTitle{
+    font-weight: bold;
+    
+    font-size: 55px;
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    color: #de9048;
+    border: black;
+    
+    text-transform: uppercase;
+    position: relative;
+    top: 250px;
+    left: 200px;
+}
+
+#agentDescription{
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
 }

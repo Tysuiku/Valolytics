@@ -1,0 +1,16 @@
+body {background-color: rgb(93, 87, 87);}
+
+#title-valolytics{
+    display: flex;
+    position: relative;
+    right: 10px;
+    font-size: 50px;
+    color: rgb(252, 42, 42);
+    justify-content: space-around;
+}
+
+.searchBox{
+    position: relative;
+    left: 150px;
+    top: 200px;
+}
