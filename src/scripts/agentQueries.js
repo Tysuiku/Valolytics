@@ -6,5 +6,6 @@ export function allAgentQueries(agentData, agentName) {
   if (agent) {
     document.querySelector("#agentTitle").innerText = agent.displayName;
     document.querySelector("#agentDescription").innerText = agent.description;
+    document.querySelector("#valoFullPortrait").src = agent.fullPortraitV2;
   }
 }

@@ -1,1 +1,1 @@
-{"version":3,"file":"main.css","mappings":"AAAA,mBAEI,YACA,Y","sources":["webpack://valolytics/./src/styles/agent.scss"],"sourcesContent":["#valo-fullPortrait{\n    \n    width: 700px;\n    height: auto;\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"main.css","mappings":"AAAA,kBAEI,YACA,Y","sources":["webpack://valolytics/./src/styles/agent.scss"],"sourcesContent":["#valoFullPortrait{\n    \n    width: 700px;\n    height: auto;\n}"],"names":[],"sourceRoot":""}
