@@ -1,5 +1,12 @@
-import { getAgent } from "./scripts/display_agent";
+import { displayAgentInfo } from "./scripts/agentDataFetch.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelector("#search").addEventListener("click", getAgent);
+  const search = document.querySelector("#search");
+  const agentInput = document.querySelector("#agentSearch");
+
+  search.addEventListener("click", function (e) {
+    const agentName = agentInput.value;
+    e.preventDefault();
+    displayAgentInfo(agentName);
+  });
 });
