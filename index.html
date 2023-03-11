@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <script src="./dist/main.js"></script>
+    <script src="./dist/main.js" defer></script>
     <title>Valolytics</title>
   </head>
 
   <body>
+
     <h1 id="title-valolytics">Valolytics</h1>
     <main>
+      
+        <video autoplay loop muted plays-inline class="backVideo">
+          <source src="images_vids/agent-background-generic.mp4" type="video/mp4">
+        </video>
+     <!-- <div class="container">
+        <div class="box">
+        </div>
+     </div> -->
+
         <div class="searchBox">
             <input id="agentSearch" type="text" placeholder="Agent Name">
             <button id="search">🔍</button>
@@ -29,15 +39,15 @@
                 <p id="agentDescription"></p>
         </div>
 
-        <div class="agentAbilityBox">
-          <img id="A1">
-          <img id="A2">
-          <img id="A3">
-          <img id="Ult1">
+        <span class="agentAbilityBox" id="abilityBox">
+          <img id="A1" class="abilityIcon">
+          <img id="A2" class="abilityIcon">
+          <img id="A3" class="abilityIcon">
+          <img id="Ult1" class="abilityIcon">
+        </span>
 
-          <p id="abilityName"></p>
-          <p id="abilityDescription"></p>
-        </div>
+        <p id="abilityName"></p>
+        <p id="abilityDescription"></p>
         
     </main>
   </body>
