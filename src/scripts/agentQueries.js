@@ -10,7 +10,7 @@ export function allAgentQueries(agentData, agentName) {
     }
   }
   if (agent) {
-    console.log(agent.abilities);
+    console.log(agent.displayName);
     document.querySelector("#agentTitle").innerText = agent.displayName;
     document.querySelector("#agentDescription").innerText = agent.description;
     document.querySelector("#valoFullPortrait").src = agent.fullPortraitV2;

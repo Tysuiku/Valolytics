@@ -3,7 +3,7 @@
     height: auto;
     background: #ece8e1;
     position: relative;
-    bottom: 270px;
+    top: 50px;
     left: 100px;
     cursor: pointer;
    
@@ -14,7 +14,7 @@
     height: auto;
     background: #ece8e1;
     position: relative;
-    bottom: 270px;
+    top: 50px;
     left: 130px;
     cursor: pointer;
 
@@ -25,7 +25,7 @@
     height: auto;
     background: #ece8e1;
     position: relative;
-    bottom: 270px;
+    top: 50px;
     left: 160px;
     cursor: pointer;
     
@@ -36,7 +36,7 @@
     height: auto;
     background: #ece8e1;
     position: relative;
-    bottom: 270px;
+    top: 50px;
     left: 190px;
     cursor: pointer;    
 }
@@ -61,4 +61,38 @@
 
 #Ult1:hover{
     background-color: rgb(255, 104, 104);
+}
+
+.abilityContainer {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#abilityName{
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    position: relative;
+    bottom: 175px;
+    color: whitesmoke;
+}
+
+#abilityDescription{
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    position: relative;
+    top: 50px;
+    max-width: 20%;
+    color: whitesmoke;
+}
+
+#abilityVideo{
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
+
+@media (max-aspect-ratio: 16/9){
+    #abilityVideo{
+        width: 625px;
+        height: 325px;
+    }
 }
