@@ -38,7 +38,4 @@ export function allAgentIcon(agentData, agentName) {
     document.querySelector(`#${agent.displayName}Icon1`).src =
       agent.displayIcon;
   }
-  if (agent.displayName === "KAY/O") {
-    document.querySelector(`#KAYOIcon1`).src = agent.displayIcon;
-  }
 }

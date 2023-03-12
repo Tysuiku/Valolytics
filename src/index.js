@@ -1,5 +1,28 @@
 import { displayAgentInfo } from "./scripts/agentDataFetch.js";
 import { displayAgentIcon } from "./scripts/agentDataFetch.js";
+import {
+  astraIcon,
+  breachIcon,
+  brimstoneIcon,
+  chamberIcon,
+  cypherIcon,
+  fadeIcon,
+  gekkoIcon,
+  harborIcon,
+  jettIcon,
+  kayoIcon,
+  killjoyIcon,
+  neonIcon,
+  omenIcon,
+  phoenixIcon,
+  razeIcon,
+  reynaIcon,
+  sageIcon,
+  skyeIcon,
+  sovaIcon,
+  viperIcon,
+  yoruIcon,
+} from "./scripts/agentVars.js";
 
 const search = document.querySelector("#search");
 const agentInput = document.querySelector("#agentSearch");
@@ -25,7 +48,8 @@ displayAgentIcon("Fade");
 displayAgentIcon("Gekko");
 displayAgentIcon("Harbor");
 displayAgentIcon("Jett");
-displayAgentIcon("KAY/O");
+// displayAgentIcon("KAY/O");
+// displayAgentIcon(`${encodeURI("KAY/O")}`);
 displayAgentIcon("Killjoy");
 displayAgentIcon("Neon");
 displayAgentIcon("Omen");
@@ -37,28 +61,6 @@ displayAgentIcon("Skye");
 displayAgentIcon("Sova");
 displayAgentIcon("Viper");
 displayAgentIcon("Yoru");
-
-const astraIcon = document.querySelector("#AstraIcon1");
-const breachIcon = document.querySelector("#BreachIcon1");
-const brimstoneIcon = document.querySelector("#BrimstoneIcon1");
-const chamberIcon = document.querySelector("#ChamberIcon1");
-const cypherIcon = document.querySelector("#CypherIcon1");
-const fadeIcon = document.querySelector("#FadeIcon1");
-const gekkoIcon = document.querySelector("#GekkoIcon1");
-const harborIcon = document.querySelector("#HarborIcon1");
-const jettIcon = document.querySelector("#JettIcon1");
-// const kayoIcon = document.querySelector("KAY/OIcon1");
-const killjoyIcon = document.querySelector("#KilljoyIcon1");
-const neonIcon = document.querySelector("#NeonIcon1");
-const omenIcon = document.querySelector("#OmenIcon1");
-const phoenixIcon = document.querySelector("#PhoenixIcon1");
-const razeIcon = document.querySelector("#RazeIcon1");
-const reynaIcon = document.querySelector("#ReynaIcon1");
-const sageIcon = document.querySelector("#SageIcon1");
-const skyeIcon = document.querySelector("#SkyeIcon1");
-const sovaIcon = document.querySelector("#SovaIcon1");
-const viperIcon = document.querySelector("#ViperIcon1");
-const yoruIcon = document.querySelector("#YoruIcon1");
 
 jettIcon.addEventListener("click", function (e) {
   agentName = "Jett";
@@ -114,11 +116,11 @@ harborIcon.addEventListener("click", function (e) {
   displayAgentInfo(agentName);
 });
 
-// kayoIcon.addEventListener("click", function (e) {
-//   agentName = "KAY/O";
-//   e.preventDefault();
-//   displayAgentInfo(agentName);
-// });
+kayoIcon.addEventListener("click", function (e) {
+  agentName = "KAY/O";
+  e.preventDefault();
+  displayAgentInfo(agentName);
+});
 
 killjoyIcon.addEventListener("click", function (e) {
   agentName = "Killjoy";
@@ -163,7 +165,7 @@ sageIcon.addEventListener("click", function (e) {
 });
 
 skyeIcon.addEventListener("click", function (e) {
-  agentName = "Jett";
+  agentName = "Skye";
   e.preventDefault();
   displayAgentInfo(agentName);
 });
