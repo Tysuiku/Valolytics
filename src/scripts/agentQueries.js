@@ -10,7 +10,6 @@ export function allAgentQueries(agentData, agentName) {
     }
   }
   if (agent) {
-    console.log(agent.displayName);
     document.querySelector("#agentTitle").innerText = agent.displayName;
     document.querySelector("#agentDescription").innerText = agent.description;
     document.querySelector("#valoFullPortrait").src = agent.fullPortraitV2;
@@ -21,5 +20,25 @@ export function allAgentQueries(agentData, agentName) {
     document.querySelector("#A2").src = agent.abilities[1].displayIcon;
     document.querySelector("#A3").src = agent.abilities[2].displayIcon;
     document.querySelector("#Ult1").src = agent.abilities[3].displayIcon;
+  }
+}
+
+export function allAgentIcon(agentData, agentName) {
+  let agent = null;
+  for (let i = 0; i < agentData.data.length; i++) {
+    if (
+      agentData.data[i].displayName.toLowerCase() === agentName.toLowerCase() &&
+      agentData.data[i]["isPlayableCharacter"]
+    ) {
+      agent = agentData.data[i];
+      break;
+    }
+  }
+  if (agent) {
+    document.querySelector(`#${agent.displayName}Icon1`).src =
+      agent.displayIcon;
+  }
+  if (agent.displayName === "KAY/O") {
+    document.querySelector(`#KAYOIcon1`).src = agent.displayIcon;
   }
 }
