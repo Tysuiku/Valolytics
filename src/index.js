@@ -85,30 +85,12 @@ jettIcon.addEventListener("click", function (e) {
   agentName = "Jett";
   e.preventDefault();
   displayAgentInfo(agentName);
-  document.querySelector("#abilityName").innerText =
-    agent.abilities[0].displayName;
-
-  document.querySelector("#abilityDescription").innerText =
-    agent.abilities[0].description;
-  source.src = `https://assets.contentstack.io/v3/assets/${
-    valoAg[`${agent.displayName}1`]
-  }/${valoOrd[`${agent.displayName}1`]}`;
-  videoSource.load();
 });
 
 astraIcon.addEventListener("click", function (e) {
   agentName = "Astra";
   e.preventDefault();
   displayAgentInfo(agentName);
-  document.querySelector("#abilityName").innerText =
-    agent.abilities[0].displayName;
-
-  document.querySelector("#abilityDescription").innerText =
-    agent.abilities[0].description;
-  source.src = `https://assets.contentstack.io/v3/assets/${
-    valoAg[`${agent.displayName}1`]
-  }/${valoOrd[`${agent.displayName}1`]}`;
-  videoSource.load();
 });
 
 breachIcon.addEventListener("click", function (e) {
