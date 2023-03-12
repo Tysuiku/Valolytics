@@ -1,3 +1,4 @@
+/* bad video api handle object*/
 export const valoAg = {
   Jett1: "bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de",
   Jett2: "bltb6530b271fddd0b1/blt063b1d451ace55f4/639367e93b5f412f83e8db36",
@@ -89,6 +90,7 @@ export const valoAg = {
   Gekko4: "bltb6530b271fddd0b1/blt1a1188dafa478506/64029a1a205f2b7a60b74497",
 };
 
+/*2nd part api key */
 export const valoOrd = {
   Jett1: "Jett_Q_v001_web.mp4",
   Jett2: "Jett_E_rework_web.mp4",
@@ -175,3 +177,4 @@ export const valoOrd = {
   Gekko3: "Website_Gekko_MoshPit_FNL.mp4",
   Gekko4: "Website_Gekko_Thrash_FNL.mp4",
 };
+/* */

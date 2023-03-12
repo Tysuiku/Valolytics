@@ -1,5 +1,6 @@
 import { displayAgentInfo } from "./scripts/agentDataFetch.js";
 import { displayAgentIcon } from "./scripts/agentDataFetch.js";
+import { valoAg, valoOrd } from "./scripts/agentObjects.js";
 import {
   astraIcon,
   breachIcon,
@@ -24,20 +25,36 @@ import {
   yoruIcon,
 } from "./scripts/agentVars.js";
 
+/* useful variables for functions */
 const search = document.querySelector("#search");
 const agentInput = document.querySelector("#agentSearch");
-const agentPortrait = document.querySelector("#agentBox");
-const agentRole = document.querySelector("#agentRoleBox");
-const agentAbility = document.querySelector("#agentAbilityBox");
+/* */
+
+/*Default Load */
+const defaultSource = document.querySelector("#abilityVideo");
+const defaultVid = document.querySelector("#abVidSource");
+const defaultAbName = document.querySelector("#abilityName");
+const defaultAbDes = document.querySelector("#abilityDescription");
+
+defaultAbName.append("Blade Storm");
+defaultAbDes.append(
+  "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALTERNATE FIRE to throw all remaining daggers but does not recharge on a kill."
+);
+defaultVid.src = `https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta43d8d506e2f5e00/5ecad7f6957e405e0990574d/Jett_X_v001_web.mp4`;
+defaultSource.load();
 let agentName = "Jett";
 displayAgentInfo(agentName);
+/* */
 
+/*searchbox */
 search.addEventListener("click", function (e) {
   agentName = agentInput.value;
   e.preventDefault();
   displayAgentInfo(agentName);
 });
+/* */
 
+/*agent icon buttons */
 displayAgentIcon("Jett");
 displayAgentIcon("Astra");
 displayAgentIcon("Breach");
@@ -61,17 +78,37 @@ displayAgentIcon("Skye");
 displayAgentIcon("Sova");
 displayAgentIcon("Viper");
 displayAgentIcon("Yoru");
+/* */
 
+/* eventListeners for agent icon click func*/
 jettIcon.addEventListener("click", function (e) {
   agentName = "Jett";
   e.preventDefault();
   displayAgentInfo(agentName);
+  document.querySelector("#abilityName").innerText =
+    agent.abilities[0].displayName;
+
+  document.querySelector("#abilityDescription").innerText =
+    agent.abilities[0].description;
+  source.src = `https://assets.contentstack.io/v3/assets/${
+    valoAg[`${agent.displayName}1`]
+  }/${valoOrd[`${agent.displayName}1`]}`;
+  videoSource.load();
 });
 
 astraIcon.addEventListener("click", function (e) {
   agentName = "Astra";
   e.preventDefault();
   displayAgentInfo(agentName);
+  document.querySelector("#abilityName").innerText =
+    agent.abilities[0].displayName;
+
+  document.querySelector("#abilityDescription").innerText =
+    agent.abilities[0].description;
+  source.src = `https://assets.contentstack.io/v3/assets/${
+    valoAg[`${agent.displayName}1`]
+  }/${valoOrd[`${agent.displayName}1`]}`;
+  videoSource.load();
 });
 
 breachIcon.addEventListener("click", function (e) {
@@ -187,3 +224,4 @@ yoruIcon.addEventListener("click", function (e) {
   e.preventDefault();
   displayAgentInfo(agentName);
 });
+/* ending of icon button func*/

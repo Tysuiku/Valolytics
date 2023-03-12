@@ -1,7 +1,9 @@
 import { allAgentQueries } from "./agentQueries";
 import { buttonClicks } from "./buttonClicks";
 import { allAgentIcon } from "./agentQueries";
+import { iconClicks } from "..";
 
+/* api fetch for agents jsonfile */
 export function displayAgentInfo(agentName) {
   fetch(`https://valorant-api.com/v1/agents/`)
     .then((response) => response.json())
@@ -10,12 +12,15 @@ export function displayAgentInfo(agentName) {
       try {
         allAgentQueries(agentData, agentName);
         buttonClicks(agentData, agentName);
+        allAgentIcon(agentData, agentName);
       } catch (error) {
         console.log("Agent not found", error);
       }
     });
 }
+/* */
 
+/* repeat api fetch fetch for icons? */
 export function displayAgentIcon(agentName) {
   fetch(`https://valorant-api.com/v1/agents/`)
     .then((response) => response.json())
@@ -28,3 +33,4 @@ export function displayAgentIcon(agentName) {
       }
     });
 }
+/* */

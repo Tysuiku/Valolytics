@@ -1,3 +1,4 @@
+/*gets basic agent info */
 export function allAgentQueries(agentData, agentName) {
   let agent = null;
   for (let i = 0; i < agentData.data.length; i++) {
@@ -22,7 +23,9 @@ export function allAgentQueries(agentData, agentName) {
     document.querySelector("#Ult1").src = agent.abilities[3].displayIcon;
   }
 }
+/* */
 
+/*gets basic icon display */
 export function allAgentIcon(agentData, agentName) {
   let agent = null;
   for (let i = 0; i < agentData.data.length; i++) {

@@ -1,3 +1,4 @@
+/* agent icon variables */
 export const astraIcon = document.querySelector("#AstraIcon1");
 export const breachIcon = document.querySelector("#BreachIcon1");
 export const brimstoneIcon = document.querySelector("#BrimstoneIcon1");
@@ -19,3 +20,4 @@ export const skyeIcon = document.querySelector("#SkyeIcon1");
 export const sovaIcon = document.querySelector("#SovaIcon1");
 export const viperIcon = document.querySelector("#ViperIcon1");
 export const yoruIcon = document.querySelector("#YoruIcon1");
+/* */

@@ -1,5 +1,6 @@
 import { valoAg, valoOrd } from "./agentObjects";
 
+/*gets info on ability icon click */
 export function buttonClicks(agentData, agentName) {
   let agent = null;
   for (let i = 0; i < agentData.data.length; i++) {
@@ -29,8 +30,6 @@ export function buttonClicks(agentData, agentName) {
     source.src = `https://assets.contentstack.io/v3/assets/${
       valoAg[`${agent.displayName}1`]
     }/${valoOrd[`${agent.displayName}1`]}`;
-    console.log(valoAg[agent.displayName]);
-    console.log(valoOrd[agent.displayName]);
     videoSource.load();
   });
 
@@ -75,3 +74,4 @@ export function buttonClicks(agentData, agentName) {
     videoSource.load();
   });
 }
+/* */
