@@ -31,17 +31,18 @@ const agentInput = document.querySelector("#agentSearch");
 /* */
 
 /*Default Load */
-const defaultSource = document.querySelector("#abilityVideo");
-const defaultVid = document.querySelector("#abVidSource");
-const defaultAbName = document.querySelector("#abilityName");
-const defaultAbDes = document.querySelector("#abilityDescription");
+// const defaultSource = document.querySelector("#abilityVideo");
+// const defaultVid = document.querySelector("#abVidSource");
+// const defaultAbName = document.querySelector("#abilityName");
+// const defaultAbDes = document.querySelector("#abilityDescription");
 
-defaultAbName.append("Blade Storm");
-defaultAbDes.append(
-  "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALTERNATE FIRE to throw all remaining daggers but does not recharge on a kill."
-);
-defaultVid.src = `https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta43d8d506e2f5e00/5ecad7f6957e405e0990574d/Jett_X_v001_web.mp4`;
-defaultSource.load();
+// defaultAbName.append("Blade Storm");
+// defaultAbDes.append(
+//   "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALTERNATE FIRE to throw all remaining daggers but does not recharge on a kill."
+// );
+// defaultVid.src = `https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta43d8d506e2f5e00/5ecad7f6957e405e0990574d/Jett_X_v001_web.mp4`;
+// defaultSource.load();
+
 let agentName = "Jett";
 displayAgentInfo(agentName);
 /* */

@@ -1,7 +1,6 @@
 import { allAgentQueries } from "./agentQueries";
 import { buttonClicks } from "./buttonClicks";
 import { allAgentIcon } from "./agentQueries";
-import { iconClicks } from "..";
 
 /* api fetch for agents jsonfile */
 export function displayAgentInfo(agentName) {

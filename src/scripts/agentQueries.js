@@ -1,3 +1,5 @@
+import { valoAg, valoOrd } from "./agentObjects";
+
 /*gets basic agent info */
 export function allAgentQueries(agentData, agentName) {
   let agent = null;
@@ -22,6 +24,19 @@ export function allAgentQueries(agentData, agentName) {
     document.querySelector("#A3").src = agent.abilities[2].displayIcon;
     document.querySelector("#Ult1").src = agent.abilities[3].displayIcon;
   }
+
+  document.querySelector("#abilityName").innerText =
+    agent.abilities[0].displayName;
+
+  document.querySelector("#abilityDescription").innerText =
+    agent.abilities[0].description;
+
+  const videoSource = document.querySelector("#abilityVideo");
+  const source = document.querySelector("#abVidSource");
+  source.src = `https://assets.contentstack.io/v3/assets/${
+    valoAg[`${agent.displayName}1`]
+  }/${valoOrd[`${agent.displayName}1`]}`;
+  videoSource.load();
 }
 /* */
 
