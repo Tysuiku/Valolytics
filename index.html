@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./dist/main.css" />
     <script src="./dist/main.js" defer></script>
     <title>Valolytics</title>
+    <link rel="icon" href="images_vids/favicon.png" type="image/x-icon">
   </head>
 
   <body>
@@ -70,40 +71,46 @@
           <img id="Ult1" >
         </span>
 
-        <div class="abilityContainer">
           <p id="abilityName"></p>
           <p id="abilityDescription"></p>
           <video autoplay loop muted id="abilityVideo">
             <source id="abVidSource" src="" type="video/webm"/>
           </video>
-        </div>
         
         <div>
           <h1 id="weaponTitle">Weapons</h1>
           <select id="weaponSelector">
             <option value="v1" disabled>Select a weapon</option>
             <option value="Vandal">Vandal</option>
-            <option value="v3">Phantom</option>
-            <option value="v4">Operator</option>
-            <option value="v5">Marshal</option>
-            <option value="v6">Guardian</option>
-            <option value="v7">Bulldog</option>
-            <option value="v8">Stinger</option>
-            <option value="v9">Spectre</option>
-            <option value="v10">Bucky</option>
-            <option value="v11">Judge</option>
-            <option value="v12">Ares</option>
-            <option value="v13">Odin</option>
-            <option value="v14">Classic</option>
-            <option value="v15">Shorty</option>
-            <option value="v16">Frenzy</option>
-            <option value="v17">Ghost</option>
-            <option value="v18">Sheriff</option>
+            <option value="Phantom">Phantom</option>
+            <option value="Operator">Operator</option>
+            <option value="Marshal">Marshal</option>
+            <option value="Guardian">Guardian</option>
+            <option value="Bulldog">Bulldog</option>
+            <option value="Stinger">Stinger</option>
+            <option value="Spectre">Spectre</option>
+            <option value="Bucky">Bucky</option>
+            <option value="Judge">Judge</option>
+            <option value="Ares">Ares</option>
+            <option value="Odin">Odin</option>
+            <option value="Classic">Classic</option>
+            <option value="Shorty">Shorty</option>
+            <option value="Frenzy">Frenzy</option>
+            <option value="Ghost">Ghost</option>
+            <option value="Sheriff">Sheriff</option>
           </select>
         </div>
 
         <div class="weaponBox">
           <img id="weaponImg">
+          <div id="weaponStats">
+            <p id="fireRate"></p> 
+            <p id="magazineSize"></p>
+            <p id="runSpeedMultiplier"></p>
+            <p id="equipTimeSeconds"></p>
+            <p id="reloadTimeSeconds"></p>
+            <p id="firstBulletAccuracy"></p>
+          </div>
         </div>
 
         

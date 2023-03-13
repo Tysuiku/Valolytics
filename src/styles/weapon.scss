@@ -1,13 +1,13 @@
 #weaponSelector{
     position: relative;
-    left: 600px;
-    bottom: 100px;
+    left: 663px;
+    top: 50px;
 }
 
 #weaponTitle{
     position: relative;
-    bottom: 125px;
-    left: 586px;
+    bottom: 0px;
+    left: 650px;
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     color: whitesmoke;
     width: 145px;
@@ -17,6 +17,14 @@
 
 #weaponImg{
     position: relative;
-    bottom: 10px;
-    left: 25px;
+    top: 135px;
+    left: 225px;
+}
+
+#weaponStats > p {
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    color: whitesmoke;
+    position: relative;
+    left: 850px;
+    bottom: 75px;
 }

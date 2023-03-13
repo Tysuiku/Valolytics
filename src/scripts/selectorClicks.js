@@ -9,16 +9,26 @@ export function selectorChange(weaponData, weaponName) {
     }
   }
 
+  //   const weaponSelector = document.querySelector("#weaponSelector");
+
+  //   weaponSelector.addEventListener("change", function () {
+  //     const selectedValue = weaponSelector.value;
+  //     weaponName = selectedValue;
+  //     console.log(selectedValue);
+  //     console.log(weaponName);
+  //     console.log(weapon);
+  //     console.log(weapon.displayIcon);
+  //   });
   const weaponSelector = document.querySelector("#weaponSelector");
 
-  weaponSelector.addEventListener("change", function () {
-    const selectedValue = weaponSelector.value;
+  weaponSelector.addEventListener("change", (event) => {
+    weaponName = event.target.value;
+    // weapon.displayName = event.target.value;
+    // document.querySelector("#weaponImg").src = weapon.displayIcon;
+    // console.log(selectedValue);
 
-    console.log(selectedValue);
-    console.log(weapon.displayName);
-    if (selectedValue === weapon.displayName) {
-      weapon.displayName = selectedValue;
-      document.querySelector("#weaponImg").src = weapon.displayIcon;
-    }
+    console.log(weaponName);
+    console.log(weapon);
+    console.log(weapon.displayIcon);
   });
 }

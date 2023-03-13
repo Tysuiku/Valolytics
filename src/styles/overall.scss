@@ -1,6 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// html {
+//     height: 100%;
+// }
+
 body {
     background-color: rgb(58, 56, 56);
-    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 #title-valolytics{
@@ -33,10 +45,3 @@ body {
     }
 }
 
-// .container {
-//     position: relative;
-//     width: 1200px;
-//     height: 300px;
-//     margin: 240px auto;
-//     background: #000;
-// }
