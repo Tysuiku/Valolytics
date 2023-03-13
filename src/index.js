@@ -31,8 +31,8 @@ const agentInput = document.querySelector("#agentSearch");
 /* */
 
 /*Default Load */
-let weaponName = "Sheriff";
-displayWeaponInfo(weaponName);
+// let weaponName = "Sheriff";
+// displayWeaponInfo(weaponName);
 
 let agentName = "Jett";
 displayAgentInfo(agentName);
