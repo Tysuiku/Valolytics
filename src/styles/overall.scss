@@ -26,48 +26,6 @@ body {
     z-index: -1;
 }
 
-@media (max-aspect-ratio:16/9){
-    #searchBox{
-        width: 100;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9){
-    #agentAbilityBox{
-        width: 100;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9){
-    #agentBox{
-        width: 100;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9){
-    #agentRoleBox{
-        width: 100;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9){
-    #agentAbilityBox{
-        width: 100;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio:16/9){
-    body{
-        width: 10;
-        height: auto;
-    }
-}
-
 @media (max-aspect-ratio: 16/9){
     .backVideo{
         width: auto;

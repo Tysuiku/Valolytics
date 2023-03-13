@@ -1,6 +1,5 @@
 import { displayAgentInfo } from "./scripts/agentDataFetch.js";
 import { displayAgentIcon } from "./scripts/agentDataFetch.js";
-import { valoAg, valoOrd } from "./scripts/agentObjects.js";
 import {
   astraIcon,
   breachIcon,
@@ -24,6 +23,7 @@ import {
   viperIcon,
   yoruIcon,
 } from "./scripts/agentVars.js";
+import { displayWeaponInfo } from "./scripts/weaponDataFetch.js";
 
 /* useful variables for functions */
 const search = document.querySelector("#search");
@@ -31,18 +31,8 @@ const agentInput = document.querySelector("#agentSearch");
 /* */
 
 /*Default Load */
-// const defaultSource = document.querySelector("#abilityVideo");
-// const defaultVid = document.querySelector("#abVidSource");
-// const defaultAbName = document.querySelector("#abilityName");
-// const defaultAbDes = document.querySelector("#abilityDescription");
-
-// defaultAbName.append("Blade Storm");
-// defaultAbDes.append(
-//   "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALTERNATE FIRE to throw all remaining daggers but does not recharge on a kill."
-// );
-// defaultVid.src = `https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta43d8d506e2f5e00/5ecad7f6957e405e0990574d/Jett_X_v001_web.mp4`;
-// defaultSource.load();
-
+let weaponName = "Operator";
+displayWeaponInfo(weaponName);
 let agentName = "Jett";
 displayAgentInfo(agentName);
 /* */
