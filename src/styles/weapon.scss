@@ -1,30 +1,22 @@
-#weaponSelector{
-    position: relative;
-    left: 663px;
-    top: 50px;
-}
-
 #weaponTitle{
-    position: relative;
-    bottom: 0px;
-    left: 650px;
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     color: whitesmoke;
     width: 145px;
     background-color: rgba(31, 173, 116, 0.754);
     border-style: solid;
+    border-radius: 6%;
 }
 
 #weaponImg{
-    position: relative;
-    top: 135px;
-    left: 225px;
+    width: 500px;
+    height: auto;
+    border: solid rgba(128, 255, 134, 0.879);
+    background-color: gray;
 }
 
 #weaponStats > p {
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     color: whitesmoke;
-    position: relative;
-    left: 850px;
-    bottom: 75px;
+    font-style: italic;
+    font-size: 22px;
 }

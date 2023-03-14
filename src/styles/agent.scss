@@ -1,59 +1,58 @@
 #valoRoleIcon{
     background-color: black;
-    width: 30px;
-    height: auto;
     position: relative;
-    left: 1100px;
-    bottom: 335px;
+    top: 38%;
+    left: 75%;
+    width: 25px;
+    height: 25px;
 }
 
 #agentRole{
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     color: whitesmoke;
-    width: 10px;
     font-size: 35px;
-    position: relative;
-    left: 940px;
-    bottom: 375px;
 }
 
 #valoFullPortrait{
-    width: 500px;
+    width: 100%;
     height: auto;
-    position: relative;
-    left: 475px;
-    top: 50px;
 }
 
 #agentTitle{
     font-weight: bold;
     
-    font-size: 55px;
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
-    color: #de9048;
-    border: black;
-    
+    font-size: 50px;
+    font-family: serif;
     text-transform: uppercase;
-    position: relative;
-    top: 275px;
-    left: 250px;
+    font-style: italic;
+    font-weight: bold;
+    color: #de9048;
+    background-color: rgb(54, 52, 52);
+    border: solid 2px black;
+    border-radius: 1%;
+    text-transform: uppercase;
+   
 }
 
 #agentDescription{
     
     color: whitesmoke;
-    max-width: 30%;
-    position: relative;
+    max-width: 75%;
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
     font-size: 20px;
-    bottom: 150px;
-    left: 950px;
+    padding: 50px;
+  
 }
 
-
-
-@media (max-width: 500px){
-    .agentRoleBox{
-        width: 100px;
-    }
+#neongiF{
+    margin: 2%;
+    width: 250px;
+    height: 250px;
 }
+
+#jettgiF{
+    margin: 18%;
+    width: auto;
+    height: 200px;
+}
+

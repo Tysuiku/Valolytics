@@ -13,113 +13,208 @@
 
   <body>
 
-    <h1 id="title-valolytics">Valolytics</h1>
-    <main>
-      
-      <div class="bgVideo">
-        <video autoplay loop muted plays-inline class="backVideo">
-          <source src="images_vids/agent-background-generic.mp4" type="video/mp4">
-        </video>
-      </div>
-     <!-- <div class="container">
-        <div class="box">
-        </div>
-     </div> -->
+    <!-- <h1 id="title-valolytics">Valolytics</h1>
+    <main> -->
+      <video autoplay loop muted plays-inline class="backVideo">
+        <source src="images_vids/agent-background-generic.mp4" type="video/mp4">
+      </video>
 
-        <div class="searchBox">
-            <input id="agentSearch" type="text" placeholder="Agent Name">
-            <button id="search">🔍</button>
-        </div>
-    
-        <div class="agentBox">
-          <h1 id="agentTitle"></h1>
-            <img id="valoFullPortrait" >
-        </div>
+        <div class="container1">
 
-        <div class="agentRoleBox">
+          <div class="container">
+
+            <!-- ----------------------- -->
+ 
+           <div class="searchBarName">
+             
+             <div class="searchBox">
+               <input id="agentSearch" type="text" placeholder="Agent Name">
+               <button id="search">🔍</button>
+             </div>
+ 
+             <div class="agentName1">
+               <h1 id="agentTitle"></h1>
+             </div>
+ 
+           </div>
+ 
+           <!-- ----------------------- -->
+           <div class="titlePortrait">
+ 
+             <div class="valolyticsTitle">
+               <h1 id="title-valolytics">Valolytics</h1>
+             </div>
+   
+             <div class="agentPortrait">
+               <img id="valoFullPortrait" >
+             </div>
+             
+           </div>
+ 
+           <!-- ----------------------- -->
+           <div class="agentRoleBox">
+ 
+             <div class="agentRoleAndIcon">
+               <div>
+                 <p id="agentRole"></p>
+               </div>
+               <div>
                 <img id="valoRoleIcon">
-                <p id="agentRole"></p>
-                <p id="agentDescription"></p>
+               </div>
+             </div>
+ 
+             <div class="agentRoleDescription">
+               <p id="agentDescription"></p>
+             </div>
+ 
+           </div>
+ 
+             <!-- ----------------------- -->
+         </div>
+         
+         <!-- ------------------------ -->
+
+          <div class="iconContainer">
+            <img id="AstraIcon1">
+            <img id="BreachIcon1">
+            <img id="BrimstoneIcon1">
+            <img id="ChamberIcon1">
+            <img id="CypherIcon1">
+            <img id="FadeIcon1">
+            <img id="GekkoIcon1">
+            <img id="HarborIcon1">
+            <img id="JettIcon1">
+            <img id="KAYOIcon1" src="images_vids/kayodisplayicon.png">
+            <img id="KilljoyIcon1">
+            <img id="NeonIcon1">
+            <img id="OmenIcon1">
+            <img id="PhoenixIcon1">
+            <img id="RazeIcon1">
+            <img id="ReynaIcon1">
+            <img id="SageIcon1">
+            <img id="SkyeIcon1">
+            <img id="SovaIcon1">
+            <img id="ViperIcon1">
+            <img id="YoruIcon1">
+          </div>
+      
         </div>
 
-        <div class="agentIconBox">
-          <img id="AstraIcon1">
-          <img id="BreachIcon1">
-          <img id="BrimstoneIcon1">
-          <img id="ChamberIcon1">
-          <img id="CypherIcon1">
-          <img id="FadeIcon1">
-          <img id="GekkoIcon1">
-          <img id="HarborIcon1">
-          <img id="JettIcon1">
-          <img id="KAYOIcon1" src="images_vids/kayodisplayicon.png">
-          <img id="KilljoyIcon1">
-          <img id="NeonIcon1">
-          <img id="OmenIcon1">
-          <img id="PhoenixIcon1">
-          <img id="RazeIcon1">
-          <img id="ReynaIcon1">
-          <img id="SageIcon1">
-          <img id="SkyeIcon1">
-          <img id="SovaIcon1">
-          <img id="ViperIcon1">
-          <img id="YoruIcon1">
+        <!-- ------------------- -->
 
-          <div class="abilityBox">
-            <img id="A1" >
-            <img id="A2" >
-            <img id="A3" >
-            <img id="Ult1" >
-            <p id="abilityName"></p>
-            <p id="abilityDescription"></p>
+        <div class="abilityBox">
+
+          <div class="abilityInfoContainer">
+
+            <div class="abilityNameBox">
+              <p id="abilityName"></p>
+            </div>
+  
+            <div class="abilityIconBox">
+              <div>
+                <img id="A1" >
+              </div>
+              <div>
+                <img id="A2" >
+              </div>
+              <div>
+                <img id="A3" >
+              </div>
+              <div>
+                <img id="Ult1" >
+              </div>
+            </div>
+            
+            <div class="abilityDescriptionBox">
+              <p id="abilityDescription"></p>
+            </div>
+
+          </div>
+         
+          <!-- --------------------- -->
+
+          <div class="abilityVideoBox">
             <video autoplay loop muted id="abilityVideo">
               <source id="abVidSource" src="" type="video/webm"/>
             </video>
           </div>
+          
         </div>
 
+        <!-- -------------------- -->
+
+        <div class="forFun">
+
+          <div class="neonGif">
+              <img src="images_vids/neongiff.gif" id="neongiF">
+          </div>
+
+          <div class="jettGif">
+            <img src="images_vids/jettgiff.gif" id="jettgiF">
+          </div>
+
+        </div>
+
+        <!-- ------------------------ -->
+        <div class="weaponDropDown">
+
+          <div class="weaponsTitle">
+            <h1 id="weaponTitle">Weapons</h1>
+          </div>
+
+          <div class="weaponSelect">
+            <select id="weaponSelector">
+              <option value="v1" disabled>Select a weapon</option>
+              <option value="Vandal">Vandal</option>
+              <option value="Phantom">Phantom</option>
+              <option value="Operator">Operator</option>
+              <option value="Marshal">Marshal</option>
+              <option value="Guardian">Guardian</option>
+              <option value="Bulldog">Bulldog</option>
+              <option value="Stinger">Stinger</option>
+              <option value="Spectre">Spectre</option>
+              <option value="Bucky">Bucky</option>
+              <option value="Judge">Judge</option>
+              <option value="Ares">Ares</option>
+              <option value="Odin">Odin</option>
+              <option value="Classic">Classic</option>
+              <option value="Shorty">Shorty</option>
+              <option value="Frenzy">Frenzy</option>
+              <option value="Ghost">Ghost</option>
+              <option value="Sheriff">Sheriff</option>
+            </select>
+          </div>
+
+          <div>
+            <div class="weaponStatBox">
+              <div class="weaponImage">
+                <img id="weaponImg">
+              </div>
+    
+              <!-- ------------------ -->
+    
+              <div class="weaponStatistic" id="weaponStats">
+                <p id="fireRate"></p> 
+                <p id="magazineSize"></p>
+                <p id="runSpeedMultiplier"></p>
+                <p id="equipTimeSeconds"></p>
+                <p id="reloadTimeSeconds"></p>
+                <p id="firstBulletAccuracy"></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ------------------- -->
        
 
-  
-        
-        <!-- <div>
-          <h1 id="weaponTitle">Weapons</h1>
-          <select id="weaponSelector">
-            <option value="v1" disabled>Select a weapon</option>
-            <option value="Vandal">Vandal</option>
-            <option value="Phantom">Phantom</option>
-            <option value="Operator">Operator</option>
-            <option value="Marshal">Marshal</option>
-            <option value="Guardian">Guardian</option>
-            <option value="Bulldog">Bulldog</option>
-            <option value="Stinger">Stinger</option>
-            <option value="Spectre">Spectre</option>
-            <option value="Bucky">Bucky</option>
-            <option value="Judge">Judge</option>
-            <option value="Ares">Ares</option>
-            <option value="Odin">Odin</option>
-            <option value="Classic">Classic</option>
-            <option value="Shorty">Shorty</option>
-            <option value="Frenzy">Frenzy</option>
-            <option value="Ghost">Ghost</option>
-            <option value="Sheriff">Sheriff</option>
-          </select>
-        </div>
+       
+         
 
-        <div class="weaponBox">
-          <img id="weaponImg">
-          <div id="weaponStats">
-            <p id="fireRate"></p> 
-            <p id="magazineSize"></p>
-            <p id="runSpeedMultiplier"></p>
-            <p id="equipTimeSeconds"></p>
-            <p id="reloadTimeSeconds"></p>
-            <p id="firstBulletAccuracy"></p>
-          </div>
-        </div> -->
 
-        
-    </main>
+          
+       
 
     
     

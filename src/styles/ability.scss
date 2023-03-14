@@ -2,10 +2,8 @@
     width: 60px;
     height: auto;
     background: #ece8e1;
-    position: relative;
-    bottom: 190px;
-    left: 130px;
     cursor: pointer;
+    border: solid rgb(218, 167, 167);
    
 }
 
@@ -13,39 +11,25 @@
     width: 60px;
     height: auto;
     background: #ece8e1;
-    position: relative;
-    bottom: 190px;
-    left: 160px;
     cursor: pointer;
-
+    border: solid rgb(218, 167, 167);
 }
 
 #A3{
     width: 60px;
     height: auto;
     background: #ece8e1;
-    position: relative;
-    bottom: 190px;
-    left: 190px;
     cursor: pointer;
-    
+    border: solid rgb(218, 167, 167);
 }
 
 #Ult1{
     width: 60px;
     height: auto;
     background: #ece8e1;
-    position: relative;
-    bottom: 190px;
-    left: 220px;
     cursor: pointer;    
+    border: solid rgb(218, 167, 167);
 }
-
-// .agentAbilityBox > img {
-//     :hover{
-//         background-color: red;
-//     }
-// }
 
 #A1:hover{
     background-color: rgb(255, 104, 104);
@@ -63,44 +47,27 @@
     background-color: rgb(255, 104, 104);
 }
 
-
 #abilityName{
+    background-color: rgba(252, 255, 255, 0.155);
+    border: solid rgb(218, 167, 167);
+    font-size: 25px;
+    width: 26%;
+    padding: 2px;
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
-    position: absolute;
-    bottom: -50px;
-    left: 275px;
     color: whitesmoke;
 }
 
 #abilityDescription{
+    background-color: rgba(252, 255, 255, 0.155);
+    border: solid rgb(218, 167, 167);
+    padding: 10px;
     font-family: Tungsten-Bold,arial,georgia,sans-serif;
-    position: absolute;
-    // top: 300px;
-    bottom: -250px;
-    left: 100px;
-    max-height: 10%;
-    max-width: 35%;
+    font-size: 20px;
+    max-width: 100%;
     color: whitesmoke;
 }
 
 #abilityVideo{
-    position: relative;
-    left: 650px;
-    top: 75px;
-    bottom: 0px;
-}
-
-// .abilityBox{
-//     position: absolute;
-//     bottom: 0px;
-//     width: 100%;
-//     height: auto;
-//     // top: 100px;
-// }
-
-@media (max-aspect-ratio: 16/9){
-    #abilityVideo{
-        width: 500px;
-        height: 425px;
+        width: 100%;
+        height: auto;
     }
-}
