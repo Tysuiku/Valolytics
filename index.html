@@ -9,16 +9,32 @@
     <script src="./dist/main.js" defer></script>
     <title>Valolytics</title>
     <link rel="icon" href="images_vids/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
 
   <body>
 
-    <!-- <h1 id="title-valolytics">Valolytics</h1>
-    <main> -->
       <video autoplay loop muted plays-inline class="backVideo">
         <source src="images_vids/agent-background-generic.mp4" type="video/mp4">
       </video>
 
+      <div class="githubLinkedin-icons">
+        <a href="https://github.com/Tysuiku"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/timothy-dong-19a700254/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      
+
+      <div class="help-mark">
+        <i class="fas fa-question-circle"></i>
+        <div class="help-box">
+          Welcome to Valolytics !!!<br>
+          [Click Icons for Agent Info]<br>
+          [Hover Over 🔍 to Search Agent]<br>
+          [Click on Dropdown for Weapon Info]
+        </div>
+      </div>
+      
+      
         <div class="container1">
 
           <div class="container">
@@ -26,12 +42,15 @@
             <!-- ----------------------- -->
  
            <div class="searchBarName">
-             
-             <div class="searchBox">
-               <input id="agentSearch" type="text" placeholder="Agent Name">
-               <button id="search">🔍</button>
-             </div>
- 
+
+             <div class="search-wrapper">
+              <form id="search-form">
+                <input type="text" id="agentSearch" placeholder="insert agent name...">
+                <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+            
+      
              <div class="agentName1">
                <h1 id="agentTitle"></h1>
              </div>

@@ -1,0 +1,133 @@
+.search-wrapper {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+  
+  #search-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  #search-form:hover {
+    width: 200px;
+    height: 30px;
+  }
+  
+  #agentSearch {
+    opacity: 0;
+    width: 0;
+    height: 30px;
+    border: none;
+    background: #67646457;
+    color: #1ad1ff;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.3s ease, width 0.3s ease;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  #search-form:hover #agentSearch {
+    opacity: 1;
+    width: 170px;
+  }
+  
+  #search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #search-btn:hover {
+    color: #fff;
+  }
+  
+  .fa-search {
+    color: #fff;
+  }
+
+//   -----------------
+
+.help-mark {
+    position: fixed;
+    top: 22px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .help-mark i {
+    font-size: 40px;
+    color: #7f7c7c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .help-mark i:hover {
+    color: #ff6b6b;
+  }
+  
+  .help-box {
+    position: absolute;
+    top: 40px;
+    right: -100px;
+    width: 200px;
+    background-color: #5c75a2;
+    border: 1px solid #efb433;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .help-mark:hover .help-box {
+    visibility: visible;
+    opacity: 1;
+    right: 0;
+  }
+  
+  //----------------------
+  .githubLinkedin-icons {
+    position: fixed;
+    top: 20px;
+    right: 60px;
+    display: flex;
+  }
+  
+  .githubLinkedin-icons a {
+    margin-left: 15px;
+  }
+  
+  .githubLinkedin-icons i {
+    font-size: 45px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .githubLinkedin-icons i:hover {
+    color: #ff6b6b;
+  }
+  
+  
+  
+  
+  

@@ -25,24 +25,32 @@ import {
 } from "./scripts/agentVars.js";
 import { displayWeaponInfo } from "./scripts/weaponDataFetch.js";
 
-/* useful variables for functions */
-const search = document.querySelector("#search");
-const agentInput = document.querySelector("#agentSearch");
-/* */
-
 /*Default Load */
-let weaponName = "Sheriff";
+let weaponName = "Vandal";
 displayWeaponInfo(weaponName);
 
 let agentName = "Jett";
 displayAgentInfo(agentName);
 /* */
 
-/*searchbox */
-search.addEventListener("click", function (e) {
+/* useful variables for functions */
+const searchForm = document.querySelector("#search-form");
+const agentInput = document.querySelector("#agentSearch");
+/* */
+
+/* searchbox */
+searchForm.addEventListener("submit", function (e) {
   agentName = agentInput.value;
   e.preventDefault();
   displayAgentInfo(agentName);
+});
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    agentName = agentInput.value;
+    e.preventDefault();
+    displayAgentInfo(agentName);
+  }
 });
 /* */
 
