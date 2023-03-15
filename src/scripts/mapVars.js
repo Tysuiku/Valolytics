@@ -1,0 +1,9 @@
+export const AscentIcon = document.querySelector("#AscentIcon1");
+export const SplitIcon = document.querySelector("#SplitIcon1");
+export const FractureIcon = document.querySelector("#FractureIcon1");
+export const BindIcon = document.querySelector("#BindIcon1");
+export const BreezeIcon = document.querySelector("#BreezeIcon1");
+export const LotusIcon = document.querySelector("#LotusIcon1");
+export const PearlIcon = document.querySelector("#PearlIcon1");
+export const IceboxIcon = document.querySelector("#IceboxIcon1");
+export const HavenIcon = document.querySelector("#HavenIcon1");

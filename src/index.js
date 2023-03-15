@@ -1,5 +1,19 @@
 import { displayAgentInfo } from "./scripts/agentDataFetch.js";
 import { displayAgentIcon } from "./scripts/agentDataFetch.js";
+import { displayMapInfo } from "./scripts/mapDataFetch.js";
+import { displayMapIcon } from "./scripts/mapDataFetch.js";
+import { displayWeaponInfo } from "./scripts/weaponDataFetch.js";
+import {
+  AscentIcon,
+  SplitIcon,
+  FractureIcon,
+  BindIcon,
+  BreezeIcon,
+  LotusIcon,
+  PearlIcon,
+  IceboxIcon,
+  HavenIcon,
+} from "./scripts/mapVars.js";
 import {
   astraIcon,
   breachIcon,
@@ -23,7 +37,6 @@ import {
   viperIcon,
   yoruIcon,
 } from "./scripts/agentVars.js";
-import { displayWeaponInfo } from "./scripts/weaponDataFetch.js";
 
 /*Default Load */
 let weaponName = "Vandal";
@@ -31,6 +44,9 @@ displayWeaponInfo(weaponName);
 
 let agentName = "Jett";
 displayAgentInfo(agentName);
+
+let mapName = "Ascent";
+displayMapInfo(mapName);
 /* */
 
 /* useful variables for functions */
@@ -78,6 +94,74 @@ displayAgentIcon("Skye");
 displayAgentIcon("Sova");
 displayAgentIcon("Viper");
 displayAgentIcon("Yoru");
+/* */
+
+/*map icon buttons */
+displayMapIcon("Ascent");
+displayMapIcon("Split");
+displayMapIcon("Fracture");
+displayMapIcon("Bind");
+displayMapIcon("Breeze");
+displayMapIcon("Lotus");
+displayMapIcon("Pearl");
+displayMapIcon("Icebox");
+displayMapIcon("Haven");
+/* */
+
+/* eventListeners for agent icon click func*/
+AscentIcon.addEventListener("click", function (e) {
+  mapName = "Ascent";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+SplitIcon.addEventListener("click", function (e) {
+  mapName = "Split";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+FractureIcon.addEventListener("click", function (e) {
+  mapName = "Fracture";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+BindIcon.addEventListener("click", function (e) {
+  mapName = "Bind";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+BreezeIcon.addEventListener("click", function (e) {
+  mapName = "Breeze";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+LotusIcon.addEventListener("click", function (e) {
+  mapName = "Lotus";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+PearlIcon.addEventListener("click", function (e) {
+  mapName = "Pearl";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+IceboxIcon.addEventListener("click", function (e) {
+  mapName = "Icebox";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
+
+HavenIcon.addEventListener("click", function (e) {
+  mapName = "Haven";
+  e.preventDefault();
+  displayMapInfo(mapName);
+});
 /* */
 
 /* eventListeners for agent icon click func*/
