@@ -2,110 +2,11 @@
     width: 65px;
     height: auto;
     z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#AstraIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
+.iconContainer > img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-
-#BreachIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#BrimstoneIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#ChamberIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#CypherIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#FadeIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#GekkoIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#HarborIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#KAYOIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#JettIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#KilljoyIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#NeonIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#OmenIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#PhoenixIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#RazeIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#ReynaIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#SageIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#SkyeIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#SovaIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#ViperIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-
-#YoruIcon1:hover{
-    background-color: rgba(174, 174, 174, 0.414);
-    cursor: pointer;
-}
-

@@ -1,73 +1,77 @@
 #A1{
     width: 60px;
     height: auto;
-    background: #ece8e1;
+    background: #f2f2f2;
     cursor: pointer;
-    border: solid rgb(218, 167, 167);
-   
+    border: 2px solid #e1c6c6;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
 }
 
 #A2{
     width: 60px;
     height: auto;
-    background: #ece8e1;
+    background: #f2f2f2;
     cursor: pointer;
-    border: solid rgb(218, 167, 167);
+    border: 2px solid #e1c6c6;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
 }
 
 #A3{
     width: 60px;
     height: auto;
-    background: #ece8e1;
+    background: #f2f2f2;
     cursor: pointer;
-    border: solid rgb(218, 167, 167);
+    border: 2px solid #e1c6c6;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
 }
 
 #Ult1{
     width: 60px;
     height: auto;
-    background: #ece8e1;
+    background: #f2f2f2;
     cursor: pointer;    
-    border: solid rgb(218, 167, 167);
+    border: 2px solid #e1c6c6;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
 }
 
-#A1:hover{
-    background-color: rgb(255, 104, 104);
+#A1:hover, #A2:hover, #A3:hover, #Ult1:hover {
+    background-color: #ff8080;
+    transform: scale(1.2);
 }
 
-#A2:hover{
-    background-color: rgb(255, 104, 104);
-}
 
-#A3:hover{
-    background-color: rgb(255, 104, 104);
-}
-
-#Ult1:hover{
-    background-color: rgb(255, 104, 104);
-}
-
-#abilityName{
-    background-color: rgba(252, 255, 255, 0.155);
-    border: solid rgb(218, 167, 167);
+#abilityName {
+    background-color: #FDEFF2;
+    border: 2px solid #E1C6C6;
+    border-radius: 5px;
     font-size: 25px;
     width: 40%;
-    padding: 2px;
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
-    color: whitesmoke;
+    padding: 5px;
+    font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
+    color: #444444;
 }
 
 #abilityDescription{
-    background-color: rgba(252, 255, 255, 0.155);
-    border: solid rgb(218, 167, 167);
+    background-color: #FDEFF2;
+    border: 2px solid #E1C6C6;
+    border-radius: 5px;
     padding: 10px;
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
     font-size: 20px;
     max-width: 100%;
-    color: whitesmoke;
+    color: #444444;
 }
 
-#abilityVideo{
-        width: 100%;
-        height: auto;
-    }
+
+
+
+#abilityVideo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  

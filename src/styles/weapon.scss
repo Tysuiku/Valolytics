@@ -1,22 +1,28 @@
 #weaponTitle{
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
-    color: whitesmoke;
+    font-family: Tungsten-Bold, arial, georgia, sans-serif;
+    color: #f5f5f5;
+    padding: 2px;
     width: 145px;
-    background-color: rgba(31, 173, 116, 0.754);
+    background-color: rgba(71, 177, 116, 0.8);
     border-style: solid;
-    border-radius: 6%;
+    border-color: #4b8e7b;
+    border-width: 2px;
+    border-radius: 8px;
+    text-align: center;
 }
 
 #weaponImg{
+    margin: 25px;
     width: 500px;
     height: auto;
+    background: linear-gradient(to bottom, rgb(148, 219, 145), rgb(143, 177, 252));
     border: solid rgba(128, 255, 134, 0.879);
-    background-color: gray;
 }
 
 #weaponStats > p {
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
-    color: whitesmoke;
+    font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
+    color: #e7eee7;
     font-style: italic;
     font-size: 22px;
+    text-shadow: 2px 2px 2px #141313;
 }

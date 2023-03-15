@@ -2,16 +2,21 @@
     background-color: black;
     position: relative;
     top: 38%;
-    left: 75%;
+    right: 5%;
     width: 25px;
     height: 25px;
     z-index: -1;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
 }
 
-#agentRole{
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+#agentRole {
+    font-family: Tungsten-Bold, arial, georgia, sans-serif;
     color: whitesmoke;
     font-size: 35px;
+    position: relative;
+    right: 5%;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
 #valoFullPortrait{
@@ -19,30 +24,30 @@
     height: auto;
 }
 
-#agentTitle{
+#agentTitle {
     font-weight: bold;
-    
-    font-size: 50px;
-    font-family: serif;
-    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Times New Roman', serif;
     font-style: italic;
-    font-weight: bold;
-    color: #de9048;
-    background-color: rgb(54, 52, 52);
-    border: solid 2px black;
-    border-radius: 1%;
+    color: #FFFFFF;
+    background-color: #1F2937;
+    border: solid 2px #1F2937;
+    border-radius: 10px;
+    padding: 20px;
     text-transform: uppercase;
-   
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 20px #FFFFFF;
 }
 
-#agentDescription{
-    
+#agentDescription {
     color: whitesmoke;
     max-width: 75%;
-    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    font-family: Tungsten-Bold, arial, georgia, sans-serif;
     font-size: 20px;
-    padding: 50px;
-  
+    padding: 20px;
+    padding-left: 70px;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
 #neongiF{
