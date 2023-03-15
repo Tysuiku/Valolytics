@@ -91,7 +91,7 @@
   .abilityVideoBox {
     margin: 2%;
     align-self: center;
-    border: solid rgb(218, 167, 167);
+    border: solid #44abff;
   }
 
   .weaponDropDown{
@@ -121,14 +121,7 @@
   .weaponStatBox{
     flex: 1;
   }
-
-  .weaponDropDown, .weaponStatBox {
-    background: linear-gradient(to bottom, #95b0c7, #85edab);
-    border: 2px solid #AED6F1;
-    border-radius: 10px;
-  }
   
-
   .weaponImage{
     margin: 2%;
   }

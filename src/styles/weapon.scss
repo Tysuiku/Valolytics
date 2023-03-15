@@ -1,28 +1,37 @@
-#weaponTitle{
-    font-family: Tungsten-Bold, arial, georgia, sans-serif;
-    color: #f5f5f5;
-    padding: 2px;
-    width: 145px;
-    background-color: rgba(71, 177, 116, 0.8);
-    border-style: solid;
-    border-color: #4b8e7b;
-    border-width: 2px;
-    border-radius: 8px;
-    text-align: center;
+.weaponDropDown, .weaponStatBox {
+  background: linear-gradient(to bottom, #0d4b7d, #051362);
+  border: 2px solid #090808;
+  border-radius: 10px;
 }
 
-#weaponImg{
-    margin: 25px;
-    width: 500px;
-    height: auto;
-    background: linear-gradient(to bottom, rgb(148, 219, 145), rgb(143, 177, 252));
-    border: solid rgba(128, 255, 134, 0.879);
+#weaponTitle {
+  font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, );
+  color: #f9e9d7;
+  padding: 2px;
+  width: 145px;
+  background-color: #1946c2;
+  border-style: solid;
+  border-color: #fef5f5;
+  border-width: 2px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#weaponImg {
+  margin: 25px;
+  width: 500px;
+  height: auto;
+  // background: linear-gradient(to bottom,#1c3f5c, #08186e);
+  // border: solid #080808;
 }
 
 #weaponStats > p {
-    font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
-    color: #e7eee7;
-    font-style: italic;
-    font-size: 22px;
-    text-shadow: 2px 2px 2px #141313;
+  font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
+  color: #ffffff;
+  font-style: italic;
+  font-size: 22px;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, );
 }
+
+  
