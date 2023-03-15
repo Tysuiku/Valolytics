@@ -23,13 +23,14 @@
 
 #agentSearch {
   opacity: 0;
-  width: 0;
+  width: 0px;
   height: 30px;
   border: none;
   background: #67646457;
   color: rgb(255, 91, 91);
   font-size: 14px;
-  padding: 0;
+  padding-left: 10px;
+  // padding: 0;
   margin: 0;
   transition: opacity 0.3s ease, width 0.3s ease;
   white-space: nowrap;
@@ -38,7 +39,7 @@
 
 #search-form:hover #agentSearch {
   opacity: 1;
-  width: 170px;
+  width: 157px;
 }
 
 #search-btn {
@@ -49,7 +50,7 @@
   height: 30px;
   border: none;
   background: transparent;
-  padding: 0;
+  padding: 0px;
   margin: 0;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -62,6 +63,8 @@
 .fa-search {
   color: #fff;
 }
+
+
 
 
 //   -----------------

@@ -1,5 +1,12 @@
-.weaponDropDown, .weaponStatBox {
-  background: linear-gradient(to bottom, #cc4a4ae3, #141313e6);
+.weaponStatBox {
+  background: linear-gradient(to bottom, #000000e3, #740808e6);
+  border: 3px solid #cc4a4ae3;
+  box-shadow: 0px 0px 20px #2b1515e3;
+  opacity: 95%;
+  border-radius: 10px;
+}
+.weaponDropDown {
+  background: linear-gradient(to bottom, #e04343e3, #402121e6);
   border: 3px solid #cc4a4ae3;
   box-shadow: 0px 0px 20px red;
   opacity: 95%;
@@ -9,10 +16,11 @@
 #weaponTitle {
   font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
   text-shadow: 0px 0px 20px #fb3939;
-  color: #fb3939;
+  font-size: 25px;
+  color: #ff2323;
   padding: 8px;
   width: 145px;
-  background-color: #212020b6;
+  background-color: #473434b6;
   box-shadow: 0px 0px 20px red;
   // border-style: solid;
   // border-color: #040404;
@@ -31,6 +39,7 @@
 }
 
 #weaponStats > p {
+  margin: 5%;
   font-family: Tungsten-Bold, Arial, Georgia, sans-serif;
   color: #ffffff;
   font-style: italic;
@@ -38,4 +47,54 @@
   text-shadow: 0px 0px 20px rgba(255, 255, 255, 2);
 }
 
-  
+// ---------------------
+.weaponSelect {
+  position: relative;
+  display: inline-block;
+}
+
+#weaponSelector {
+  font-size: 16px;
+  color: #fff;
+  background-color: #d58585;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#weaponSelector option {
+  background-color: #6f2a2a;
+}
+
+#weaponSelector:hover {
+  background-color: #dc8e8e;
+}
+
+#weaponSelector:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #5f1818;
+}
+
+#weaponSelector::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: #fff;
+}
+
+#weaponSelector option {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f5a0a0 !important;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#weaponSelector option:hover {
+  background-color: #f5a0a0 !important;
+}

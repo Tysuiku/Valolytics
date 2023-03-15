@@ -70,6 +70,7 @@
     margin: 12%;
     display: flex;
     justify-content: center;
+    gap: 2em;
 }
 
 .abilityBox > div {
@@ -77,19 +78,21 @@
 }
 
 .abilityInfoContainer {
-    margin: 2%;
+    margin: -1%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    padding-left: -10px;
+    // padding-right: 10px;
   }
 
   .abilityIconBox{
     display: flex;
-    gap: 4em;
+    gap: 2em;
   }
   
   .abilityVideoBox {
-    margin: 2%;
+    margin: 5%;
     align-self: center;
   }
 
@@ -133,4 +136,5 @@
     margin: -10%;
     display: flex;
     justify-content: space-evenly;
+    padding-right: 100px;
   }

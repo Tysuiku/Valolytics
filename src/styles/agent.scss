@@ -1,11 +1,11 @@
 #valoRoleIcon{
     background-color: black;
     position: relative;
-    top: 38%;
-    right: 5%;
+    top: 15%;
+    right: -50%;
     width: 25px;
     height: 25px;
-    z-index: -1;
+    z-index: -2;
     border-radius: 50%;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.2);
 }
@@ -58,6 +58,12 @@
 }
 
 #jettgiF{
+    margin: 18%;
+    width: auto;
+    height: 200px;
+}
+
+#omengiF{
     margin: 18%;
     width: auto;
     height: 200px;
