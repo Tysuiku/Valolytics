@@ -13,8 +13,8 @@ fetch(`https://valorant-api.com/v1/weapons`)
     });
     const defaultWeaponName = "Vandal";
     displayWeaponInfo(defaultWeaponName);
-  })
-  .catch((error) => console.error(error));
+  });
+// .catch((error) => console.error(error));
 
 export function displayWeaponInfo(weaponName) {
   if (!weaponData) {
@@ -25,6 +25,6 @@ export function displayWeaponInfo(weaponName) {
   try {
     allWeaponQueries(weaponData, weaponName);
   } catch (error) {
-    console.log("Weapon not found", error);
+    // console.log("Weapon not found", error);
   }
 }
