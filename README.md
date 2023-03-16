@@ -1,41 +1,41 @@
-# Valolytics Js Project Proposal
+# Valolytics
 
-## Background
+Valolytics is a data visualization tool designed for the popular FPS game, Valorant. Utilizing data from Valorant-Api a custom api hosted on the web, it provides a comprehensive and insightful representation of agent role, biography, abilities, map information, and weapon statistics.
 
-My project will be a data visualization of the game Valorant. The project will showcase an overview of the characters, their background and their abilities and traits. The project would also showcase all the different maps the game has to offer. Overall the general idea is this project should be able to give a quick demonstration of what the game Valorant has to offer.
+## Getting Started
 
-## Functionality & MVPs
+The application is hosted on https://tysuiku.github.io/Valolytics/
+A list of all current Valorant agents can be found at https://valorant.fandom.com/wiki/Agents
 
-In { Valolytics }, users will be able to:
+## Usage
 
-- { 4-6 core features or functionalities of your project }
-- { interactive buttons for users to click and render character info such as abilities }
-- { see most updated data being pulled from a api }
-- { search up characters to see specific characters info }
-- { interactive buttons or slider to show case all the maps the game has to offer }
+Interact with the visualizer by clicking on the Icons displayed , resulting in real-time updates to agent's information such as abilities, and biography. The visualizer offers video demonstrations of agent abilities, as well as a section that displays valorants different maps and their layout. The search function allows for addition ease for navigation and the ability to search for all available agents.
 
-In addition, this project will include:
-{ 2-4 other aspects of your project, including instructions & README }
+## Data Sources
 
-- { a interactive weapons menu that shows weapon price }
-- { a damage comparison chart that has a drag down menu for gun damage comparisons or graph }
+The application uses data from the Valorant-API.com to provide accurate agent information, weapon statistics, and valorant map layouts.
+https://valorant-api.com/v1/agents
+https://valorant-api.com/v1/weapons
+https://valorant-api.com/v1/maps
 
-## Wireframe
+## Interactive Features
 
-![Screenshot of my application](screenshots/valolytics_wireframe.png)
+- Clicking on a agent icon shows Agent background info and role.
+- Video demonstrations of agent abilities (clickable icons to view the vids).
+- View valorants various maps.
 
-## Technologies, Libraries, APIs
+## Search Functionality
 
-I will be primarily using this api (https://dash.valorant-api.com/endpoints/agents) to fetch my data and vanilla javascript to implement functionalities for users to interact with.
+The search function allows for easy navigation and the ability to search for all currently available agent.
+(only works on available agents)
 
-## Implementation Timeline
+## Contact Information
 
-- Friday Afternoon & Weekend : hoping to finish writing my scripts, getting my fetched data to show up on my html and my buttons and search to work as intended.
+If you have any questions or issues, please email me at Tysuiku@gmail.com
 
-- Monday : hoping if the functionalities are working and data is being fetched properly start working on css
+## Screenshots
 
-- Tuesday : css making it better and more detailed or catching up if things didn’t go as planned
-
-- Wednesday: hopefully css is looking somewhat decent and I can consider fixing it so it is good for mobile view
-
-- Thursday Morning: Hopefully by now my project should be showing decent css and functionalities ^^
+![Screenshot](screenshots/mainview.png)
+![Screenshot](screenshots/abilitiesview.png)
+![Screenshot](screenshots/weaponstats.png)
+![Screenshot](screenshots/mapview.png)
