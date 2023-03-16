@@ -18,7 +18,7 @@ fetch(`https://valorant-api.com/v1/weapons`)
 
 export function displayWeaponInfo(weaponName) {
   if (!weaponData) {
-    console.log("Weapon data not yet loaded.");
+    // console.log("Weapon data not yet loaded.");
     return;
   }
 
