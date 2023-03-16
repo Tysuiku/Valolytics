@@ -41,22 +41,25 @@ body {
     z-index: -3;
     width: auto;
     height: 100%;
+    border-bottom: 30px white;
+    
 }
 
 .ending1{
   padding: 18px;
-  border: 2px solid #171616;
-  box-shadow: 0px 0px 20px #040404;
-  display: flex;
-  justify-content: flex-end;
+  // border: 0.5px solid #171616;
+  // box-shadow: 0px 0px 2px #040404;
+    padding-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 11px;
+    align-items: flex-end;
+    vertical-align: middle;
+    text-align: center;
 }
 
-#endingInfo{
 
-  font-weight: lighter;
-  font-size: 4px;
-  font-family: 'Helvetica Neue', sans-serif;
-}
 
 
 

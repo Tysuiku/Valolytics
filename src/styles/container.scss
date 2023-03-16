@@ -50,6 +50,7 @@
 
 .agentRoleAndIcon{
     display: flex;
+    margin-top: 25%;
 }
 
 .iconContainer{
@@ -67,10 +68,10 @@
 }
 
 .abilityBox{
-    margin: 12%;
+    margin: 15%;
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 8em;
 }
 
 .abilityBox > div {
@@ -82,16 +83,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: -10px;
+    padding-left: -10%;
     // padding-right: 10px;
   }
 
   .abilityIconBox{
     display: flex;
-    gap: 2em;
+    margin: 2%;
+    gap: 4em;
   }
   
   .abilityVideoBox {
+    padding-top: 4%;
     margin: 5%;
     align-self: center;
   }
@@ -141,6 +144,6 @@
 
   .mapBox{
     display: flex;
-    gap: 6em;
+    gap: 10em;
     padding-bottom: 20px;
   }
