@@ -29,6 +29,12 @@ https://valorant-api.com/v1/maps
 The search function allows for easy navigation and the ability to search for all currently available agent.
 (only works on available agents)
 
+## Future Implementations:
+
+- Display weapon stats with in a Chart
+- Add a weapon Skin view
+- Add location names on the map display
+
 ## Contact Information
 
 If you have any questions or issues, please email me at Tysuiku@gmail.com
