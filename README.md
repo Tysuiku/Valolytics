@@ -4,7 +4,7 @@ Valolytics is a data visualization tool designed for the popular FPS game, Valor
 
 ## Getting Started
 
-The application is hosted on https://tysuiku.github.io/Valolytics/
+The application can be viewed on <b>[Live-Link](https://tysuiku.github.io/Valolytics/)
 A list of all current Valorant agents can be found at https://valorant.fandom.com/wiki/Agents
 
 ## Usage
@@ -41,7 +41,7 @@ If you have any questions or issues, please email me at Tysuiku@gmail.com
 
 ## Screenshots
 
-![Screenshot](screenshots/mainview.png)
-![Screenshot](screenshots/abilitiesview.png)
-![Screenshot](screenshots/weaponstats.png)
-![Screenshot](screenshots/mapview.png)
+![Screenshot](screenshots/valo1.gif)
+![Screenshot](screenshots/valo2.gif)
+![Screenshot](screenshots/valo3.gif)
+![Screenshot](screenshots/valo4.gif)
