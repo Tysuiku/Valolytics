@@ -61,7 +61,30 @@
 
              <div class="search-wrapper">
               <form id="search-form">
-                <input type="text" id="agentSearch" placeholder="insert agent name...">
+                <input type="text" id="agentSearch" placeholder="insert agent name..." list="agentNames">
+                  <datalist id="agentNames">
+                   <option value="Astra">
+                   <option value="Breach">
+                    <option value="Brimstone">
+                     <option value="Chamber">
+                      <option value="Cypher">
+                       <option value="Fade">
+                        <option value="Gekko">
+                       <option value="Harbor">
+                      <option value="Jett">
+                    <option value="Kay/o">
+                   <option value="Killjoy">
+                  <option value="Neon">
+                <option value="Omen">
+                  <option value="Phoenix">
+                  <option value="Raze">
+                  <option value="Reyna">
+                  <option value="Sage">
+                  <option value="Skye">
+                  <option value="Sova">
+                  <option value="Viper">
+                  <option value="Yoru">
+              </datalist>
                 <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
               </form>
             </div>
@@ -70,7 +93,15 @@
              <div class="agentName1">
                <h1 id="agentTitle"></h1>
              </div>
- 
+
+             <!-- Error Modal -->
+            <div id="errorModal" class="modal">
+              <div class="modal-content">
+              <span class="close">&times;</span>
+                <p>Error: Invalid agent name</p>
+              </div>
+              </div>
+
            </div>
  
            <!-- ----------------------- -->

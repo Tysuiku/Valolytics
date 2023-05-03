@@ -52,23 +52,76 @@ displayMapInfo(mapName);
 /* useful variables for functions */
 const searchForm = document.querySelector("#search-form");
 const agentInput = document.querySelector("#agentSearch");
-/* */
+const errorModal = document.querySelector("#errorModal");
+const closeModal = document.querySelector(".close");
+
+/* function to check if the agent name is valid */
+function isValidAgentName(name) {
+  const validAgentNames = [
+    "Astra",
+    "Breach",
+    "Brimstone",
+    "Chamber",
+    "Cypher",
+    "Fade",
+    "Gekko",
+    "Harbor",
+    "Jett",
+    "Kay/o",
+    "Killjoy",
+    "Neon",
+    "Omen",
+    "Phoenix",
+    "Raze",
+    "Reyna",
+    "Sage",
+    "Skye",
+    "Sova",
+    "Viper",
+    "Yoru",
+  ];
+
+  // Return true if the name exists in the validAgentNames array (case insensitive)
+  return validAgentNames.some(
+    (agent) => agent.toLowerCase() === name.toLowerCase()
+  );
+}
+
+/* function to display the error modal */
+function displayErrorModal() {
+  errorModal.style.display = "block";
+}
+
+/* function to close the error modal */
+function closeModalOnClick() {
+  errorModal.style.display = "none";
+}
 
 /* searchbox */
 searchForm.addEventListener("submit", function (e) {
-  agentName = agentInput.value;
   e.preventDefault();
-  displayAgentInfo(agentName);
+  const agentName = agentInput.value;
+  if (isValidAgentName(agentName)) {
+    displayAgentInfo(agentName);
+  } else {
+    displayErrorModal();
+  }
 });
 
 document.addEventListener("keydown", function (e) {
   if (e.key === "Enter") {
-    agentName = agentInput.value;
     e.preventDefault();
-    displayAgentInfo(agentName);
+    const agentName = agentInput.value;
+    if (isValidAgentName(agentName)) {
+      displayAgentInfo(agentName);
+    } else {
+      displayErrorModal();
+    }
   }
 });
-/* */
+
+/* close the modal when the user clicks on the "x" */
+closeModal.addEventListener("click", closeModalOnClick);
 
 /*agent icon buttons */
 displayAgentIcon("Jett");
